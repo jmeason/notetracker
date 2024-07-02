@@ -1,14 +1,25 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeason/notetracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jmeason/notetracker/issues"
+  },
+  "homepage": "https://github.com/jmeason/notetracker#readme",
+  "description": ""
 }
